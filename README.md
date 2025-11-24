@@ -19,7 +19,7 @@ Experiment with AWS ECS over Managed EC2 Instances with LocalStack using Terrafo
 2. `terraform init`
 3. `terraform test`
     1. This command will hang your terminal and never completes.
-    2. Observe following in the Logstack Logs/Logstack Docker Container:
+    2. Observe following in the LocalStack Logs/LocalStack Docker Container:
 ```text
 2025-11-23T10:48:32.579  INFO --- [et.reactor-4] localstack.request.aws     : AWS ec2.RevokeSecurityGroupEgress => 200
 2025-11-23T10:48:32.583  INFO --- [et.reactor-7] localstack.request.aws     : AWS ec2.AuthorizeSecurityGroupEgress => 200
